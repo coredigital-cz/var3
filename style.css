@@ -308,6 +308,11 @@ section{position:relative}
 .wa-float{position:fixed;bottom:26px;right:26px;width:62px;height:62px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:150;transition:all .3s;box-shadow:0 8px 24px rgba(37,211,102,.45);animation:waPulse 2.6s infinite}
 .wa-float:hover{transform:scale(1.12)}
 .wa-float svg{width:30px;height:30px}
+
+.fb-float{position:fixed;bottom:26px;left:26px;width:62px;height:62px;border-radius:50%;background:#1877F2;color:#fff;display:flex;align-items:center;justify-content:center;z-index:150;transition:all .3s;box-shadow:0 8px 24px rgba(24,119,242,.45)}
+.fb-float:hover{transform:scale(1.12)}
+.fb-float svg{width:30px;height:30px}
+@media(max-width:940px){.fb-float{bottom:78px}}
 @keyframes waPulse{0%,100%{box-shadow:0 8px 24px rgba(37,211,102,.45)}50%{box-shadow:0 8px 40px rgba(37,211,102,.7)}}
 .mob-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:140;background:var(--ink);padding:10px 14px;gap:10px}
 .mob-cta a{flex:1;padding:13px;border-radius:12px;text-align:center;font-weight:700;font-size:.86rem;display:flex;align-items:center;justify-content:center;gap:8px}
